@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Codveda Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <!-- AOS CSS for scroll animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">Codveda</div>
+
+      <!-- Hamburger Menu for Mobile -->
+      <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#footer">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero" class="hero" data-aos="fade-up">
+    <h1>Welcome to Codveda</h1>
+    <p>Building the Future with Innovation</p>
+    <a href="#features" class="btn">Explore Features</a>
+  </section>
+
+  <section id="features" class="features" data-aos="fade-up">
+    <div class="feature-box" data-aos="fade-right">Fast Performance</div>
+    <div class="feature-box" data-aos="fade-up">Responsive Design</div>
+    <div class="feature-box" data-aos="fade-left">Modern UI</div>
+  </section>
+
+  <section id="about" class="about" data-aos="fade-up">
+    <h2>About Us</h2>
+    <p>We are passionate about building modern digital experiences that empower users.</p>
+  </section>
+
+  <footer id="footer" class="footer" data-aos="fade-up">
+    <p>© 2025 Codveda Technologies. All rights reserved.</p>
+    <p>Email: support@codveda.com</p>
+  </footer>
+
+  <!-- AOS JS for animation -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>
+
